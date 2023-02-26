@@ -11,13 +11,20 @@ body {
     background-color: #f4f4f4;
 }
 
+.title {
+    font-size: 35px;
+    font-weight: bold;
+}
+.sub {
+    font-size: 30px;
+}
+
 .Head {
     display: flex;
-    flex-basis: 200px;
     justify-content: space-evenly;
     align-items: center;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 160px;
+    padding-right: 160px;
     padding-top: 30px;
     padding-bottom: 70px;
 }
@@ -30,6 +37,7 @@ body {
     width: 150px;
     height: 150px;
 }
+
 .Title {
     font-weight: bold;
     margin-top: 15px;
@@ -50,4 +58,71 @@ body {
     align-items: center;
     margin-left: 300px;
     margin-right: 300px; 
+}
+/* ------------------------------------------------------------------- */
+/* Legs */
+.ltitle {
+    display: flex;
+    justify-content: center;
+}
+.licon {
+    height: 300px;
+    width: auto;
+}
+
+/* -------------------------------------------------------------------- */
+
+.Torso {
+    display: flex;
+    justify-content: center;
+}
+.Pelvis {
+    display: flex;
+    justify-content: center;
+}
+.ldescription {
+    display: flex;
+    flex-direction: column;
+
+}
+.pimg {
+    width: 200px;
+    height: auto;
+}
+.type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: px;
+    margin-left: 450px; */
+}
+.three {
+    background-color: rgb(128, 188, 205);
+}
+.pdesc {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    background-color: #f4f4f4;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-radius: 20px;
+}
+.bullet {
+    font-size: 15px;
+}
+.pic {
+    width: 100px;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.name {
+    margin-bottom: 20px;
 }
