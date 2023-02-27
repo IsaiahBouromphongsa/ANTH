@@ -81,10 +81,9 @@ hr {
 
 /* -------------------------------------------------------------------- */
 
-.Torso {
+.h123 {
     display: flex;
     justify-content: center;
-    font-size: 2em;
 }
 .Pelvis {
     display: flex;
@@ -97,7 +96,7 @@ hr {
 
 .box {
     background-color: #fffffe;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
     border-radius: 50px;
     padding-right: 50px;
     padding-left: 50px;
@@ -151,4 +150,15 @@ hr {
 }
 .name {
     margin-bottom: 20px;
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+/* HEAD */
+.master {
+    display: flex;
+    justify-content: space-around;
+}
+.box2 {
+    display: flex;
+    flex-direction: column;
 }
