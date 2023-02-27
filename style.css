@@ -84,6 +84,7 @@ hr {
 .Torso {
     display: flex;
     justify-content: center;
+    font-size: 2em;
 }
 .Pelvis {
     display: flex;
