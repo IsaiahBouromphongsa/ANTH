@@ -1,8 +1,40 @@
-/* html, body {
-    width: 100%;
-    height: 100%;
-} */
-
+header {
+    background-color: #8c7851;
+    color: #fff;
+    padding: 2px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav li {
+    float: left;
+}
+nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav li a:hover {
+    background-color: #111;
+}
+.smol {
+    height: 50px;
+}
+nav img {
+    height: 50px;
+}
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
@@ -40,8 +72,13 @@ hr {
 }
 .logo {
     width: 100px;
-    height: auto
+    height: auto;
+    transition: transform 0.5s ease-out;
 }
+.logo:hover {
+    transform: scale(1.1);
+  }
+  
 .earth {
     width: 150px;
     height: 150px;
@@ -80,7 +117,7 @@ hr {
 }
 
 /* -------------------------------------------------------------------- */
-
+/* TORSO */
 .h123 {
     display: flex;
     justify-content: center;
@@ -103,6 +140,7 @@ hr {
     padding-top: 30px;
     padding-bottom: 30px;
     width: 300px;
+    height: 300px;
 }
 
 .ldescription {
@@ -141,6 +179,7 @@ hr {
 }
 .pic {
     width: 100px;
+    height: 100px;
 }
 .left {
     display: flex;
@@ -150,6 +189,7 @@ hr {
 }
 .name {
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 /* -------------------------------------------------------------------------------------------------------------- */
@@ -161,4 +201,19 @@ hr {
 .box2 {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    
+    /* justify-content: center; */
+    background-color: #fffffe;
+    margin-bottom: 100px;
+    border-radius: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 300px;
+    height: 300px;
+}
+.brain {
+    background-color: #fffffe;
 }
