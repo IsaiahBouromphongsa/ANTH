@@ -226,7 +226,7 @@ hr {
 
 .limbic {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 .box3 {
@@ -249,4 +249,15 @@ hr {
     flex-direction: column;
     background-color:#eaddcf;
     margin-bottom: 30px;
+    padding: 20px;
+    align-items: center;
+    border-radius: 20px;
+}
+.lobes {
+    width: 500px;
+    height: auto;
+}
+.cortex {
+    display: flex;
+    justify-content: space-around;
 }
