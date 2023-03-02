@@ -121,12 +121,36 @@ hr {
     height: 300px;
     width: auto;
 }
-
+.feet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.evo {
+    display: flex;
+    justify-content: space-around;
+}
+.arrow {
+    width: 100px;
+    height: 100px;
+}
+.cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#fffffe;
+    border-radius: 40px;
+    height: 300px;
+    width:300px;
+}
 /* -------------------------------------------------------------------- */
 /* TORSO */
 .h123 {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 0;
     padding-top: 30px;
 }
@@ -210,7 +234,9 @@ hr {
 
 .master {
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around;
+    margin-right: 160px;
+    margin-left: 160px;
 }
 .box2 {
     display: flex;
@@ -273,7 +299,7 @@ hr {
 .white {
     background-color:#fffffe;
 }
-
+/* ----------------------------------------- */
 .hand {
     width: 500px;
     height: auto;
