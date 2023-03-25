@@ -328,3 +328,11 @@ hr {
     padding-right: 420px;
     margin-top: 30px;
 }
+
+.evo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: auto;
+}
