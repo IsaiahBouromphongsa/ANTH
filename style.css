@@ -317,3 +317,14 @@ hr {
     height: auto;
 
 }
+
+/* ----------------------------------------------- */
+
+.second {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 420px;
+    padding-right: 420px;
+    margin-top: 30px;
+}
