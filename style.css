@@ -336,3 +336,12 @@ hr {
     width: 800px;
     height: auto;
 }
+
+.third {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 520px;
+    padding-right: 520px;
+    margin-top: 30px;
+}
